@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#code-section,
+#visual-section {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#code-section {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+#visual-section {
+    background-color: #3498db;
+    color: #ecf0f1;
+    border-left: 1px solid #2c3e50;
+}
+
+pre {
+    white-space: pre-wrap;
+    font-size: 14px;
+    line-height: 1.5;
+    tab-size: 4;
+    margin: 0;
+}
+
+h2 {
+    color: #ecf0f1;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.visual-example {
+    border: 1px solid #2c3e50;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* HTML Visual Styles */
+#html-visual {
+    background-color: #ffffff;
+}
+
+/* CSS Visual Styles */
+#css-visual {
+    background-color: #3498db;
+    color: #ecf0f1;
+    border: 1px solid #2c3e50;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Add your specific styles for visual illustrations here */
